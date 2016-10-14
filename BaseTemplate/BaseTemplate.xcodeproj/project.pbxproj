@@ -19,6 +19,8 @@
 		B5D1C7411DB1267B00417BB3 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C73C1DB1267B00417BB3 /* Promise.swift */; };
 		B5D1C7421DB1267B00417BB3 /* PromiseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C73D1DB1267B00417BB3 /* PromiseState.swift */; };
 		B5D1C7431DB1267B00417BB3 /* WhenAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C73F1DB1267B00417BB3 /* WhenAll.swift */; };
+		B5D1C7471DB1298000417BB3 /* TemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C7461DB1298000417BB3 /* TemplateViewController.swift */; };
+		B5D1C7491DB129B200417BB3 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C7481DB129B200417BB3 /* TemplateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		B5D1C73C1DB1267B00417BB3 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
 		B5D1C73D1DB1267B00417BB3 /* PromiseState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromiseState.swift; sourceTree = "<group>"; };
 		B5D1C73F1DB1267B00417BB3 /* WhenAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhenAll.swift; sourceTree = "<group>"; };
+		B5D1C7461DB1298000417BB3 /* TemplateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateViewController.swift; sourceTree = "<group>"; };
+		B5D1C7481DB129B200417BB3 /* TemplateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		B563C50E1DB11A540024BEDB /* NouveauProjet */ = {
 			isa = PBXGroup;
 			children = (
+				B5D1C7441DB1294900417BB3 /* Controllers+Views */,
 				B5D1C7321DB11EF600417BB3 /* DataManager */,
 				B5D1C7311DB11EEE00417BB3 /* Network */,
 				B5D1C7301DB11EE900417BB3 /* Models */,
@@ -154,6 +159,23 @@
 				B5D1C73F1DB1267B00417BB3 /* WhenAll.swift */,
 			);
 			path = Then;
+			sourceTree = "<group>";
+		};
+		B5D1C7441DB1294900417BB3 /* Controllers+Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1C7451DB1295D00417BB3 /* ControllerTemplate */,
+			);
+			name = "Controllers+Views";
+			sourceTree = "<group>";
+		};
+		B5D1C7451DB1295D00417BB3 /* ControllerTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B5D1C7461DB1298000417BB3 /* TemplateViewController.swift */,
+				B5D1C7481DB129B200417BB3 /* TemplateView.swift */,
+			);
+			name = ControllerTemplate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +289,8 @@
 				B5D1C7341DB11F0300417BB3 /* DataManager.swift in Sources */,
 				B563C5101DB11A540024BEDB /* AppDelegate.swift in Sources */,
 				B5D1C7411DB1267B00417BB3 /* Promise.swift in Sources */,
+				B5D1C7491DB129B200417BB3 /* TemplateView.swift in Sources */,
+				B5D1C7471DB1298000417BB3 /* TemplateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
