@@ -13,6 +13,22 @@
 		B563C5171DB11A540024BEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B563C5161DB11A540024BEDB /* Assets.xcassets */; };
 		B563C51A1DB11A540024BEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B563C5181DB11A540024BEDB /* LaunchScreen.storyboard */; };
 		B563C5251DB11A540024BEDB /* BaseTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563C5241DB11A540024BEDB /* BaseTemplateTests.swift */; };
+		B5C369931DB13A7D002817FC /* Stevia+Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369831DB13A7D002817FC /* Stevia+Alignment.swift */; };
+		B5C369941DB13A7D002817FC /* Stevia+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369841DB13A7D002817FC /* Stevia+Center.swift */; };
+		B5C369951DB13A7D002817FC /* Stevia+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369851DB13A7D002817FC /* Stevia+Constraints.swift */; };
+		B5C369961DB13A7D002817FC /* Stevia+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369861DB13A7D002817FC /* Stevia+Content.swift */; };
+		B5C369971DB13A7D002817FC /* Stevia+DoubleDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369871DB13A7D002817FC /* Stevia+DoubleDash.swift */; };
+		B5C369981DB13A7D002817FC /* Stevia+Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369881DB13A7D002817FC /* Stevia+Fill.swift */; };
+		B5C369991DB13A7D002817FC /* Stevia+FlexibleMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369891DB13A7D002817FC /* Stevia+FlexibleMargin.swift */; };
+		B5C3699A1DB13A7D002817FC /* Stevia+GetConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3698A1DB13A7D002817FC /* Stevia+GetConstraint.swift */; };
+		B5C3699B1DB13A7D002817FC /* Stevia+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3698B1DB13A7D002817FC /* Stevia+Hierarchy.swift */; };
+		B5C3699C1DB13A7D002817FC /* Stevia+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3698C1DB13A7D002817FC /* Stevia+Notifications.swift */; };
+		B5C3699D1DB13A7D002817FC /* Stevia+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3698D1DB13A7D002817FC /* Stevia+Operators.swift */; };
+		B5C3699E1DB13A7D002817FC /* Stevia+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3698E1DB13A7D002817FC /* Stevia+Position.swift */; };
+		B5C3699F1DB13A7D002817FC /* Stevia+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3698F1DB13A7D002817FC /* Stevia+Size.swift */; };
+		B5C369A01DB13A7D002817FC /* Stevia+Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369901DB13A7D002817FC /* Stevia+Stacks.swift */; };
+		B5C369A11DB13A7D002817FC /* Stevia+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369911DB13A7D002817FC /* Stevia+Style.swift */; };
+		B5C369A21DB13A7D002817FC /* Stevia+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C369921DB13A7D002817FC /* Stevia+Tap.swift */; };
 		B5D1C7341DB11F0300417BB3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C7331DB11F0300417BB3 /* DataManager.swift */; };
 		B5D1C7361DB11F3500417BB3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C7351DB11F3500417BB3 /* NetworkManager.swift */; };
 		B5D1C7381DB11FA500417BB3 /* NetworkContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D1C7371DB11FA500417BB3 /* NetworkContext.swift */; };
@@ -44,6 +60,22 @@
 		B563C5201DB11A540024BEDB /* BaseTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B563C5241DB11A540024BEDB /* BaseTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTemplateTests.swift; sourceTree = "<group>"; };
 		B563C5261DB11A540024BEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C369831DB13A7D002817FC /* Stevia+Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Alignment.swift"; sourceTree = "<group>"; };
+		B5C369841DB13A7D002817FC /* Stevia+Center.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Center.swift"; sourceTree = "<group>"; };
+		B5C369851DB13A7D002817FC /* Stevia+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Constraints.swift"; sourceTree = "<group>"; };
+		B5C369861DB13A7D002817FC /* Stevia+Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Content.swift"; sourceTree = "<group>"; };
+		B5C369871DB13A7D002817FC /* Stevia+DoubleDash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+DoubleDash.swift"; sourceTree = "<group>"; };
+		B5C369881DB13A7D002817FC /* Stevia+Fill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Fill.swift"; sourceTree = "<group>"; };
+		B5C369891DB13A7D002817FC /* Stevia+FlexibleMargin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+FlexibleMargin.swift"; sourceTree = "<group>"; };
+		B5C3698A1DB13A7D002817FC /* Stevia+GetConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+GetConstraint.swift"; sourceTree = "<group>"; };
+		B5C3698B1DB13A7D002817FC /* Stevia+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Hierarchy.swift"; sourceTree = "<group>"; };
+		B5C3698C1DB13A7D002817FC /* Stevia+Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Notifications.swift"; sourceTree = "<group>"; };
+		B5C3698D1DB13A7D002817FC /* Stevia+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Operators.swift"; sourceTree = "<group>"; };
+		B5C3698E1DB13A7D002817FC /* Stevia+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Position.swift"; sourceTree = "<group>"; };
+		B5C3698F1DB13A7D002817FC /* Stevia+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Size.swift"; sourceTree = "<group>"; };
+		B5C369901DB13A7D002817FC /* Stevia+Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Stacks.swift"; sourceTree = "<group>"; };
+		B5C369911DB13A7D002817FC /* Stevia+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Style.swift"; sourceTree = "<group>"; };
+		B5C369921DB13A7D002817FC /* Stevia+Tap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Stevia+Tap.swift"; sourceTree = "<group>"; };
 		B5D1C7331DB11F0300417BB3 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		B5D1C7351DB11F3500417BB3 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B5D1C7371DB11FA500417BB3 /* NetworkContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkContext.swift; sourceTree = "<group>"; };
@@ -119,6 +151,29 @@
 			path = BaseTemplateTests;
 			sourceTree = "<group>";
 		};
+		B5C369821DB13A74002817FC /* Stevia */ = {
+			isa = PBXGroup;
+			children = (
+				B5C369831DB13A7D002817FC /* Stevia+Alignment.swift */,
+				B5C369841DB13A7D002817FC /* Stevia+Center.swift */,
+				B5C369851DB13A7D002817FC /* Stevia+Constraints.swift */,
+				B5C369861DB13A7D002817FC /* Stevia+Content.swift */,
+				B5C369871DB13A7D002817FC /* Stevia+DoubleDash.swift */,
+				B5C369881DB13A7D002817FC /* Stevia+Fill.swift */,
+				B5C369891DB13A7D002817FC /* Stevia+FlexibleMargin.swift */,
+				B5C3698A1DB13A7D002817FC /* Stevia+GetConstraint.swift */,
+				B5C3698B1DB13A7D002817FC /* Stevia+Hierarchy.swift */,
+				B5C3698C1DB13A7D002817FC /* Stevia+Notifications.swift */,
+				B5C3698D1DB13A7D002817FC /* Stevia+Operators.swift */,
+				B5C3698E1DB13A7D002817FC /* Stevia+Position.swift */,
+				B5C3698F1DB13A7D002817FC /* Stevia+Size.swift */,
+				B5C369901DB13A7D002817FC /* Stevia+Stacks.swift */,
+				B5C369911DB13A7D002817FC /* Stevia+Style.swift */,
+				B5C369921DB13A7D002817FC /* Stevia+Tap.swift */,
+			);
+			name = Stevia;
+			sourceTree = "<group>";
+		};
 		B5D1C7301DB11EE900417BB3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +201,7 @@
 		B5D1C7391DB1265E00417BB3 /* ThirdParty-LIB */ = {
 			isa = PBXGroup;
 			children = (
+				B5C369821DB13A74002817FC /* Stevia */,
 				B5D1C73A1DB1267B00417BB3 /* Then */,
 			);
 			name = "ThirdParty-LIB";
@@ -281,15 +337,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C369951DB13A7D002817FC /* Stevia+Constraints.swift in Sources */,
+				B5C369A21DB13A7D002817FC /* Stevia+Tap.swift in Sources */,
+				B5C369971DB13A7D002817FC /* Stevia+DoubleDash.swift in Sources */,
+				B5C369961DB13A7D002817FC /* Stevia+Content.swift in Sources */,
 				B5D1C7421DB1267B00417BB3 /* PromiseState.swift in Sources */,
 				B5D1C7381DB11FA500417BB3 /* NetworkContext.swift in Sources */,
 				B5D1C7361DB11F3500417BB3 /* NetworkManager.swift in Sources */,
+				B5C3699B1DB13A7D002817FC /* Stevia+Hierarchy.swift in Sources */,
 				B5D1C7431DB1267B00417BB3 /* WhenAll.swift in Sources */,
+				B5C3699A1DB13A7D002817FC /* Stevia+GetConstraint.swift in Sources */,
+				B5C3699F1DB13A7D002817FC /* Stevia+Size.swift in Sources */,
+				B5C3699D1DB13A7D002817FC /* Stevia+Operators.swift in Sources */,
+				B5C369931DB13A7D002817FC /* Stevia+Alignment.swift in Sources */,
+				B5C369A11DB13A7D002817FC /* Stevia+Style.swift in Sources */,
 				B563C5121DB11A540024BEDB /* ViewController.swift in Sources */,
+				B5C369941DB13A7D002817FC /* Stevia+Center.swift in Sources */,
+				B5C369981DB13A7D002817FC /* Stevia+Fill.swift in Sources */,
+				B5C369991DB13A7D002817FC /* Stevia+FlexibleMargin.swift in Sources */,
 				B5D1C7341DB11F0300417BB3 /* DataManager.swift in Sources */,
 				B563C5101DB11A540024BEDB /* AppDelegate.swift in Sources */,
 				B5D1C7411DB1267B00417BB3 /* Promise.swift in Sources */,
+				B5C3699E1DB13A7D002817FC /* Stevia+Position.swift in Sources */,
 				B5D1C7491DB129B200417BB3 /* TemplateView.swift in Sources */,
+				B5C3699C1DB13A7D002817FC /* Stevia+Notifications.swift in Sources */,
+				B5C369A01DB13A7D002817FC /* Stevia+Stacks.swift in Sources */,
 				B5D1C7471DB1298000417BB3 /* TemplateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
