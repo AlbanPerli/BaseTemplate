@@ -1,0 +1,13 @@
+use_frameworks!
+
+pod 'Kingfisher', '~> 3.1'
+
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+
+pod 'Arrow'
+pod 'ws'
+pod 'SteviaLayout'
+
+pod 'SwiftLoader'
+
+pod "AsyncSwift"
